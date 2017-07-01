@@ -45,4 +45,11 @@ all good.</value>
         <shortDescription>label1</shortDescription>
         <value>label 1</value>
     </labels>
+    <labels>
+        <fullName>label2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label2</shortDescription>
+        <value>label2</value>
+    </labels>
 </CustomLabels>
