@@ -38,4 +38,11 @@ that&apos;s it.</value>
         <value>Hey there.
 all good.</value>
     </labels>
+    <labels>
+        <fullName>label1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label1</shortDescription>
+        <value>label 1</value>
+    </labels>
 </CustomLabels>
