@@ -1,3 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata"/>
-
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>DELETE</fullName>
+        <categories>Copado</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DELETE</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Hey_Dude</fullName>
+        <categories>XYZ</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hey Dude</shortDescription>
+        <value>!2 &gt; asdf ññññ
+that&apos;s it.
+!2 &gt; asdf ññññ
+that&apos;s it.
+!2 &gt; asdf ññññ
+that&apos;s it.</value>
+    </labels>
+    <labels>
+        <fullName>HolaMundo</fullName>
+        <categories>appHellow</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HolaMundo</shortDescription>
+        <value>Hellow World</value>
+    </labels>
+    <labels>
+        <fullName>Test_1_X</fullName>
+        <categories>Test</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Test 1 X</shortDescription>
+        <value>Hey there.
+all good.</value>
+    </labels>
+    <labels>
+        <fullName>label1</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label1</shortDescription>
+        <value>label 1</value>
+    </labels>
+    <labels>
+        <fullName>label2</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>label2</shortDescription>
+        <value>label2</value>
+    </labels>
+</CustomLabels>
