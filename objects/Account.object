@@ -147,9 +147,10 @@
     <fields>
         <fullName>Demo_Field__c</fullName>
         <externalId>false</externalId>
+        <inlineHelpText>Demo for Ken</inlineHelpText>
         <label>Demo Field</label>
         <length>255</length>
-        <required>false</required>
+        <required>true</required>
         <trackFeedHistory>false</trackFeedHistory>
         <type>Text</type>
         <unique>false</unique>
