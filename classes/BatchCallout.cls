@@ -1,6 +1,7 @@
 global class BatchCallout extends AbstractRestfullService implements Database.Batchable<sObject>, Database.Stateful, Database.AllowsCallouts  {
 	private String QUERYTEMPLATE = 'SELECT {0} FROM {1} WHERE {2} IN: whereIds';
 	private String QUERYTEMPLATEMULTI = 'SELECT {0} FROM {1} WHERE {2}';
+	//asdf
 	private Map<String, Schema.SObjectType> gd = Schema.getGlobalDescribe();
 	public Set<String> whereIds {get; set;}
 //Jesus is here
