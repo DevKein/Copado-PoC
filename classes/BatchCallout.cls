@@ -3,6 +3,7 @@ global class BatchCallout extends AbstractRestfullService implements Database.Ba
 	private String QUERYTEMPLATEMULTI = 'SELECT {0} FROM {1} WHERE {2}';
 	private Map<String, Schema.SObjectType> gd = Schema.getGlobalDescribe();
 	public Set<String> whereIds {get; set;}
+//Jesus is here
 	final Map<Integer, String> orderedMap {get; set;}
 	final Map<Id, Migration_Rule__c> migrationRules {get; set;}
 	final Map<String, Map<RelationEnum, Map<Id, Migration_Rule_Relation__c>>> MRRelationsMap {get; set;}
