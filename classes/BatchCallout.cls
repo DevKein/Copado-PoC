@@ -18,7 +18,7 @@ global class BatchCallout extends AbstractRestfullService implements Database.Ba
 	public String objectName {get; set;}
 	private Boolean startIntegration {get; set;}
 	public Map<String, Integer> chunckSizeMap {get; set;}
-	//demo comment 3
+	//demo comment 4
 	public Map<String, List<sObject>> objectData {get; set;}
 	public Map<String, Map<Id, String>> rtMappings {get; set;}
 	private Map<String, List<TransportResultWrapper>> migrationResults = new Map<String, List<TransportResultWrapper>>();
