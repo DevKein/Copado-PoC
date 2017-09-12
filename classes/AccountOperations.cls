@@ -1,6 +1,6 @@
 public class AccountOperations {
     public static Account setDefaultDescription(Account a) {
-        a.Description = 'Default Description'; // v.1.04.5
+        a.Description = 'Default Description'; // v.1.04.8
         return a;
     }
 }
