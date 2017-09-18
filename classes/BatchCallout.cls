@@ -4,6 +4,7 @@ global class BatchCallout extends AbstractRestfullService implements Database.Ba
 	//asdf
 	private Map<String, Schema.SObjectType> gd = Schema.getGlobalDescribe();
 	public Set<String> whereIds {get; set;}
+//Jesus is here
 	final Map<Integer, String> orderedMap {get; set;}
 	final Map<Id, Migration_Rule__c> migrationRules {get; set;}
 	final Map<String, Map<RelationEnum, Map<Id, Migration_Rule_Relation__c>>> MRRelationsMap {get; set;}
