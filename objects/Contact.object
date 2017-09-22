@@ -117,6 +117,18 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Demo_Field__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>This is my demo field</description>
+        <externalId>false</externalId>
+        <label>Demo Field</label>
+        <length>180</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
         <fullName>Department</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
