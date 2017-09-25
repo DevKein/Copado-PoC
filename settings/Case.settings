@@ -9,9 +9,9 @@
         <feedItemType>EmailMessageEvent</feedItemType>
     </caseFeedItemSettings>
     <closeCaseThroughStatusChange>false</closeCaseThroughStatusChange>
-    <defaultCaseOwner>mertyalti@migratethis.com</defaultCaseOwner>
+    <defaultCaseOwner>dev1@copa.do</defaultCaseOwner>
     <defaultCaseOwnerType>User</defaultCaseOwnerType>
-    <defaultCaseUser>mertyalti@migratethis.com</defaultCaseUser>
+    <defaultCaseUser>dev1@copa.do</defaultCaseUser>
     <emailToCase>
         <enableEmailToCase>false</enableEmailToCase>
     </emailToCase>
@@ -22,6 +22,7 @@
     <notifyDefaultCaseOwner>false</notifyDefaultCaseOwner>
     <notifyOwnerOnCaseComment>false</notifyOwnerOnCaseComment>
     <notifyOwnerOnCaseOwnerChange>false</notifyOwnerOnCaseOwnerChange>
+    <showEmailAttachmentsInCaseAttachmentsRL>true</showEmailAttachmentsInCaseAttachmentsRL>
     <useSystemEmailAddress>true</useSystemEmailAddress>
     <useSystemUserAsDefaultCaseUser>false</useSystemUserAsDefaultCaseUser>
     <webToCase>
