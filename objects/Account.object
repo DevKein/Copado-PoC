@@ -157,6 +157,7 @@
     </fields>
     <fields>
         <fullName>Demo_Picklist__c</fullName>
+        <description>GIT METADATA DEPLOYMENT VALIDATION TEST</description>
         <externalId>false</externalId>
         <label>Demo Picklist</label>
         <required>false</required>
