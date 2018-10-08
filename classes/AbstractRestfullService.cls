@@ -66,10 +66,10 @@ public abstract class AbstractRestfullService implements IRestfullService{
             req.setMethod('POST');
             System.debug(loggingLevel.Error, '*** req: ' + req);
             if(!String.isBlank(endPoint)){
-                req.setEndpoint(endPoint + '/services/apexrest/transportdata');
+                req.setEndpoint(endPoint + '/services/apexrest/MigrateTHIS/transportdata');
             }
             else{
-                req.setEndpoint(ep + '/services/apexrest/transportdata');
+                req.setEndpoint(ep + '/services/apexrest/MigrateTHIS/transportdata');
             }
             
             HttpResponse res = carrier.send(req);
@@ -89,7 +89,7 @@ public abstract class AbstractRestfullService implements IRestfullService{
         if (!String.isBlank(access_token)) {
             Http carrier = new Http();
             HttpRequest req = new HttpRequest();
-            //req.setHeader('Authorization', 'Bearer ' + access_token);
+            req.setHeader('Authorization', 'Bearer ' + access_token);
             req.setHeader('Content-Type', 'application/json');
             req.setHeader('accept', 'application/json');            
             req.setHeader('ObjectName', requestedObject);
@@ -97,12 +97,10 @@ public abstract class AbstractRestfullService implements IRestfullService{
                   
             req.setMethod('GET');
             if(!String.isBlank(endPoint)){
-                //req.setEndpoint(endPoint + '/services/apexrest/transportdata');
-                req.setEndpoint('callout: To_Prod/services/apexrest/transportdata');
+                req.setEndpoint(endPoint + '/services/apexrest/MigrateTHIS/transportdata');
             }
             else{
-                //req.setEndpoint(ep + '/services/apexrest/transportdata');
-                req.setEndpoint('callout: To_Prod/services/apexrest/transportdata');
+                req.setEndpoint(ep + '/services/apexrest/MigrateTHIS/transportdata');
             }
             HttpResponse res = carrier.send(req);
             return res.getBody();
